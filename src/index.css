@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0;
+  padding: 25px;
+  background-color: rgb(130 188 236);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.cardboard {
+  width: 300px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-around;
+  background-color: rgb(255 255 255);
+}
+
+.raffle {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ball {
+  border: 1px solid black;
+  font-size: 48px;
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: rgb(255 255 255);
+}
+
+button {
+  background-color: white;
+  margin-top: 10px;
+  padding: 5px 10px;
+  display: block;
+  color: black;
+  align-items: center;
+  font-family: "Open Sans";
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px outset;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 1px inset;
+}
+
+.crossed {
+  background-color: rgb(33 175 80);
+  color: white;
+}
